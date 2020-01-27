@@ -6,10 +6,21 @@
     <description>Recent content in Posts on TIL 맛집</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2020 11:43:17 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2020 11:47:58 +0900</lastBuildDate>
     
 	<atom:link href="http://ohoroyoi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020 01 27 Mon</title>
+      <link>http://ohoroyoi.github.io/posts/2020-01-27-mon/</link>
+      <pubDate>Mon, 27 Jan 2020 11:47:58 +0900</pubDate>
+      
+      <guid>http://ohoroyoi.github.io/posts/2020-01-27-mon/</guid>
+      <description>chapter 03 프로그래밍 문제 접근법   알고리즘 용으로 JAVA, PYTHON
+  빅오표기법
+   입력값이 무엇인지 확인하고 어떤 것이 n으로 놓여야 하는지 확인. 차수가 제일 높은 항만 남기고, 모든 상수 인수는 삭제하자.  </description>
+    </item>
     
     <item>
       <title>My First Post</title>

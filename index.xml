@@ -6,10 +6,26 @@
     <description>Recent content on TIL 맛집</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jan 2020 23:02:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 23:19:14 +0900</lastBuildDate>
     
 	<atom:link href="http://ohoroyoi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020 01 31 Fri</title>
+      <link>http://ohoroyoi.github.io/posts/2020-01-31-fri/</link>
+      <pubDate>Fri, 31 Jan 2020 23:19:14 +0900</pubDate>
+      
+      <guid>http://ohoroyoi.github.io/posts/2020-01-31-fri/</guid>
+      <description>iDAY 06
+IP range
+https://confluence.atlassian.com/jirakb/error-connecting-to-database-fatal-no-pg_hba-conf-entry-for-host-x-x-x-x-user-jiradbuser-database-jiradb-ssl-off-950801726.html
+Error Connecting to database FATAL : no pg_hba.conf entry for host&amp;quot;x.x.x.x&amp;rdquo;, user&amp;quot;jiradbuser&amp;rdquo;, database&amp;quot;jiradb&amp;rdquo;, SSL off - Atlas
+Error Connecting to database FATAL : no pg_hba.conf entry for host&amp;quot;x.x.x.x&amp;rdquo;, user&amp;quot;jiradbuser&amp;rdquo;, database&amp;quot;jiradb&amp;rdquo;, SSL off
+confluence.atlassian.com https://www.postgresql.org/docs/devel/auth-pg-hba-conf.html
+PostgreSQL: Documentation: devel: 20.1. The pg_hba.conf File
+20.1. The pg_hba.conf File Client authentication is controlled by a configuration file, which traditionally is named pg_hba.conf and is stored in the database cluster&amp;rsquo;s data directory.</description>
+    </item>
     
     <item>
       <title>2020 01 29 Wed</title>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>TIL 맛집  | 2020 02 05 Wed</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.63.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="2020 02 05 Wed" />
+<meta property="og:description" content="오늘 느낀 것 오늘 내가 마주친 상황은ㅋㅋ 뭐 내 나름대로는 면접때 물어보는 최근 겪은 어려움과 뭐 ~ 그것을 어떻게 해결했냐능~ 하는 질문이 생각날 법한 상황이었다ㅎ
+(상황) jpa entity를 만드는데 geometry 타입의 serialize / deserialize가 안됨 -&gt; 그래서 실행이 안되는데
+(오늘 내가 해결한 방법) geometry 를 springboot에서 써야하는건 아니라서, geojson으로도 되니까 (단, geometry로 조회할 수는 있어야됨) 그래서 @transient? 이거 써서 가져오진 않고 이걸로 조회는 하는 식으로 변경했음
+(해보고싶은것) 그래도 serialize를 하고싶좌나; 스택오버플로우에는 POINT ((어쩌구 저쩌구)) &lt;- 이렇게 만드는것만 있궁." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ohoroyoi.github.io/posts/2020-02-05-wed/" />
+<meta property="article:published_time" content="2020-02-05T23:50:49+09:00" />
+<meta property="article:modified_time" content="2020-02-05T23:50:49+09:00" />
+<meta itemprop="name" content="2020 02 05 Wed">
+<meta itemprop="description" content="오늘 느낀 것 오늘 내가 마주친 상황은ㅋㅋ 뭐 내 나름대로는 면접때 물어보는 최근 겪은 어려움과 뭐 ~ 그것을 어떻게 해결했냐능~ 하는 질문이 생각날 법한 상황이었다ㅎ
+(상황) jpa entity를 만드는데 geometry 타입의 serialize / deserialize가 안됨 -&gt; 그래서 실행이 안되는데
+(오늘 내가 해결한 방법) geometry 를 springboot에서 써야하는건 아니라서, geojson으로도 되니까 (단, geometry로 조회할 수는 있어야됨) 그래서 @transient? 이거 써서 가져오진 않고 이걸로 조회는 하는 식으로 변경했음
+(해보고싶은것) 그래도 serialize를 하고싶좌나; 스택오버플로우에는 POINT ((어쩌구 저쩌구)) &lt;- 이렇게 만드는것만 있궁.">
+<meta itemprop="datePublished" content="2020-02-05T23:50:49&#43;09:00" />
+<meta itemprop="dateModified" content="2020-02-05T23:50:49&#43;09:00" />
+<meta itemprop="wordCount" content="92">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="2020 02 05 Wed"/>
+<meta name="twitter:description" content="오늘 느낀 것 오늘 내가 마주친 상황은ㅋㅋ 뭐 내 나름대로는 면접때 물어보는 최근 겪은 어려움과 뭐 ~ 그것을 어떻게 해결했냐능~ 하는 질문이 생각날 법한 상황이었다ㅎ
+(상황) jpa entity를 만드는데 geometry 타입의 serialize / deserialize가 안됨 -&gt; 그래서 실행이 안되는데
+(오늘 내가 해결한 방법) geometry 를 springboot에서 써야하는건 아니라서, geojson으로도 되니까 (단, geometry로 조회할 수는 있어야됨) 그래서 @transient? 이거 써서 가져오진 않고 이걸로 조회는 하는 식으로 변경했음
+(해보고싶은것) 그래도 serialize를 하고싶좌나; 스택오버플로우에는 POINT ((어쩌구 저쩌구)) &lt;- 이렇게 만드는것만 있궁."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://ohoroyoi.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      TIL 맛집
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">2020 02 05 Wed</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-02-05T23:50:49&#43;09:00">February 5, 2020</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="오늘-느낀-것">오늘 느낀 것</h1>
+<p>오늘 내가 마주친 상황은ㅋㅋ
+뭐 내 나름대로는 면접때 물어보는 최근 겪은 어려움과 뭐 ~ 그것을 어떻게 해결했냐능~ 하는 질문이 생각날 법한 상황이었다ㅎ</p>
+<p>(상황)
+jpa entity를 만드는데 geometry 타입의 serialize / deserialize가 안됨 -&gt; 그래서 실행이 안되는데</p>
+<p>(오늘 내가 해결한 방법)
+geometry 를 springboot에서 써야하는건 아니라서, geojson으로도 되니까 (단, geometry로 조회할 수는 있어야됨)
+그래서 @transient? 이거 써서 가져오진 않고 이걸로 조회는 하는 식으로 변경했음</p>
+<p>(해보고싶은것)
+그래도 serialize를 하고싶좌나; 스택오버플로우에는 POINT ((어쩌구 저쩌구)) &lt;- 이렇게 만드는것만 있궁.. 할튼 방법은 많은 듯 함.
+postgres에서 geojson을 안쓰고 geometry 타입을 쓰는게 쫌 .. 불편함이랄까&hellip;</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://ohoroyoi.github.io/" >
+    &copy;  TIL 맛집 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

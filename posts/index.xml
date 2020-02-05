@@ -6,10 +6,22 @@
     <description>Recent content in Posts on TIL 맛집</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Feb 2020 22:56:06 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2020 23:50:49 +0900</lastBuildDate>
     
 	<atom:link href="http://ohoroyoi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020 02 05 Wed</title>
+      <link>http://ohoroyoi.github.io/posts/2020-02-05-wed/</link>
+      <pubDate>Wed, 05 Feb 2020 23:50:49 +0900</pubDate>
+      
+      <guid>http://ohoroyoi.github.io/posts/2020-02-05-wed/</guid>
+      <description>오늘 느낀 것 오늘 내가 마주친 상황은ㅋㅋ 뭐 내 나름대로는 면접때 물어보는 최근 겪은 어려움과 뭐 ~ 그것을 어떻게 해결했냐능~ 하는 질문이 생각날 법한 상황이었다ㅎ
+(상황) jpa entity를 만드는데 geometry 타입의 serialize / deserialize가 안됨 -&amp;gt; 그래서 실행이 안되는데
+(오늘 내가 해결한 방법) geometry 를 springboot에서 써야하는건 아니라서, geojson으로도 되니까 (단, geometry로 조회할 수는 있어야됨) 그래서 @transient? 이거 써서 가져오진 않고 이걸로 조회는 하는 식으로 변경했음
+(해보고싶은것) 그래도 serialize를 하고싶좌나; 스택오버플로우에는 POINT ((어쩌구 저쩌구)) &amp;lt;- 이렇게 만드는것만 있궁.</description>
+    </item>
     
     <item>
       <title>2020 02 04 Tue</title>

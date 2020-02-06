@@ -6,10 +6,19 @@
     <description>Recent content on TIL 맛집</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Feb 2020 23:50:49 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2020 22:30:55 +0900</lastBuildDate>
     
 	<atom:link href="http://ohoroyoi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020 02 06 Thu</title>
+      <link>http://ohoroyoi.github.io/posts/2020-02-06-thu/</link>
+      <pubDate>Thu, 06 Feb 2020 22:30:55 +0900</pubDate>
+      
+      <guid>http://ohoroyoi.github.io/posts/2020-02-06-thu/</guid>
+      <description>2020 현 프로젝트 정리  부서마다 사용하는 지역 정보가 달라서 ex 호텔과 공항 상품 연계가 어렵다. 자유 여행 플랫폼을 지원하기 위함. 지역을 임의로 생성할 수 있고, 관리할 수 있다. expedia 기준 geojson 기준  </description>
+    </item>
     
     <item>
       <title>2020 02 05 Wed</title>

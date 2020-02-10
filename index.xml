@@ -6,10 +6,19 @@
     <description>Recent content on TIL 맛집</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Feb 2020 23:53:32 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 22:38:42 +0900</lastBuildDate>
     
 	<atom:link href="http://ohoroyoi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020 02 10 Mon</title>
+      <link>http://ohoroyoi.github.io/posts/2020-02-10-mon/</link>
+      <pubDate>Mon, 10 Feb 2020 22:38:42 +0900</pubDate>
+      
+      <guid>http://ohoroyoi.github.io/posts/2020-02-10-mon/</guid>
+      <description>현재 하고 있는 프로젝트 모듈 단위로 띄우기</description>
+    </item>
     
     <item>
       <title>2020 02 08 Sat</title>
